@@ -1,0 +1,63 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0b1220;
+  color:white;
+}
+
+header{
+  padding:10px;
+  background:#111827;
+}
+
+header input{
+  width:100%;
+  padding:8px;
+  margin:10px 0;
+}
+
+button{
+  margin:3px;
+  padding:6px;
+  cursor:pointer;
+  border:none;
+  background:#2563eb;
+  color:white;
+}
+
+.container{
+  display:flex;
+  height:70vh;
+}
+
+aside{
+  width:250px;
+  background:#0f172a;
+  overflow:auto;
+}
+
+.item{
+  padding:10px;
+  border-bottom:1px solid #1f2937;
+  cursor:pointer;
+}
+
+.item:hover{
+  background:#1f2937;
+}
+
+main{
+  flex:1;
+  padding:15px;
+}
+
+.card{
+  background:#111827;
+  padding:15px;
+  border-radius:10px;
+}
+
+.compare{
+  padding:10px;
+  background:#0f172a;
+}
