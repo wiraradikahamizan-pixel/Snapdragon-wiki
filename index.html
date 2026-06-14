@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Snapdragon Wiki</title>
@@ -9,21 +9,17 @@
 
 <header>
   <h1>📚 Snapdragon Wiki</h1>
-  <input id="search" onkeyup="search()" placeholder="Cari Snapdragon...">
+  <input id="search" placeholder="Cari Snapdragon..." onkeyup="search()">
 </header>
 
 <div class="layout">
 
-  <aside>
-    <button onclick="filter('all')">Semua</button>
-    <button onclick="filter('entry')">Entry</button>
-    <button onclick="filter('mid')">Mid</button>
-    <button onclick="filter('upper')">Upper Mid</button>
-    <button onclick="filter('flagship')">Flagship</button>
-    <button onclick="filter('special')">Special</button>
-  </aside>
+  <aside id="list"></aside>
 
-  <main id="content"></main>
+  <main id="content">
+    <h2>Selamat datang</h2>
+    <p>Pilih Snapdragon untuk melihat detail</p>
+  </main>
 
 </div>
 
